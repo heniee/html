@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,td{
+        border:1px solid gray;
+        width: 800px;
+        height: 60px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    th{
+        height: 50px;
+        font-size: 20px;
+    }
+    div{
+        background-color: pink;
+        border-radius:30px;
+        line-height: 30px;
+        color:orangered;
+        border:2px solid black;
+        margin: 10px;
+        }
+        .col1, .col2 {
+            width:25%
+        }
+        .col3{
+            width:20%;
+        }
+
+</style>
+<body>
+    <table>
+        <tr>
+            <th>수강레벨</th>
+            <th class="col1">코스 A</th>
+            <th class="col2">코스 B</th>
+            <th>수강기간</th>
+            <th class="col3">세부내용보기</th>
+           
+        </tr>
+        <tr>
+            <td>레벨 1</td>
+            <td>Side by side 1</td>
+            <td>Amrican Headway 1</td>
+            <td>1개월</td>
+            <td><div>세부내용보기</div></td>
+      
+        </tr>
+        <tr>
+            <td>레벨 2</td>
+            <td>Side by side 2</td>
+            <td>Amrican Headway 2</td>
+            <td>1개월</td>
+            <td><div>세부내용보기</div></td>
+        </tr>
+        <tr>
+            <td>레벨 3</td>
+            <td>Side by side 3</td>
+            <td>Amrican Headway 3</td>
+            <td>1개월</td>
+            <td><div>세부내용보기</div></td>
+        </tr>
+        <tr>
+            <td>레벨 4</td>
+            <td colspan="2">Exploring English 1</td>
+            
+            <td>2개월</td>
+            <td><div>세부내용보기</div></td>
+        </tr>
+        <tr>
+            <td>레벨 5</td>
+            <td colspan="2">Exploring English 2</td>
+           
+            <td>2개월</td>
+            <td><div>세부내용보기</div></td>
+        </tr>
+    </table>
+</body>
+</html>
